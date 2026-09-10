@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática — Vídeo com Legendas</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f4e79;
+      color: white;
+      padding: 28px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px 40px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 24px;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #1f4e79;
+      margin-top: 0;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    video {
+      width: 100%;
+      max-width: 760px;
+      border-radius: 10px;
+      background: black;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.9rem;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Atividade Prática — Vídeo com Legendas</h1>
+    <p>Aplicação das tags HTML &lt;video&gt; e &lt;track&gt;</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Demonstração do Vídeo Acessível</h2>
+      <p>
+        O player abaixo está configurado com recursos de acessibilidade e exibe a faixa de legenda <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática — Vídeo com Legendas</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f4e79;
+      color: white;
+      padding: 28px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px 40px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 24px;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #1f4e79;
+      margin-top: 0;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    video {
+      width: 100%;
+      max-width: 760px;
+      border-radius: 10px;
+      background: black;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.9rem;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Atividade Prática — Vídeo com Legendas</h1>
+    <p>Aplicação das tags HTML &lt;video&gt; e &lt;track&gt;</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Demonstração do Vídeo Acessível</h2>
+      <p>
+        O player abaixo está configurado com recursos de acessibilidade e exibe a faixa de legenda em português de forma sincronizada.
+      </p>
+
+      <div class="video-container">
+        <!-- O 'controls' garante que o usuário consiga pausar e ajustar o volume -->
+        <video controls>
+          <!-- Vídeo na mesma pasta do index.html -->
+          <source src="video.mp4" type="video/mp4">
+
+          <!-- Legenda na mesma pasta do index.html -->
+          <track
+            src="legendas.vtt"
+            kind="subtitles"
+            srclang="pt-BR"
+            label="Português"
+            default
+          >
+
+          Seu navegador não suporta a reprodução de vídeos em HTML5.
+        </video>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Atividade de Desenvolvimento Web — Acessibilidade e multimídia em HTML
+  </footer>
+
+</body>
+</html>
+em português de forma sincronizada.
+      </p>
+
+      <div class="video-container">
+        <!-- O 'controls' garante que o usuário consiga pausar e ajustar o volume -->
+        <video controls>
+          <!-- Vídeo na mesma pasta do index.html -->
+          <source src="video.mp4" type="video/mp4">
+
+          <!-- Legenda na mesma pasta do index.html -->
+          <track
+            src="legendas.vtt"
+            kind="subtitles"
+            srclang="pt-BR"
+            label="Português"
+            default
+          >
+
+          Seu navegador não suporta a reprodução de vídeos em HTML5.
+        </video>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Atividade de Desenvolvimento Web — Acessibilidade e multimídia em HTML
+  </footer>
+
+</body>
+</html>
